@@ -1,0 +1,6 @@
+:root{--bg:#fff;--fg:#222;--muted:#666;--accent:#7b3fa0}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--fg:#eee;--muted:#aaa;--accent:#c9a0e8}}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,"Hiragino Sans","Yu Gothic UI",sans-serif;line-height:1.8}
+main{max-width:720px;margin:0 auto;padding:40px 16px}
+h1{font-size:1.6rem;margin:0 0 8px}h2{font-size:1.15rem;margin-top:2em}
+a{color:var(--accent)}.muted{color:var(--muted);font-size:.9rem}
